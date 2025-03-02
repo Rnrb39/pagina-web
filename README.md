@@ -23,7 +23,7 @@
 
 Clonar el repositorio:
 
-git clone https://github.com/Rneb39/pagina-web.git
+git clone https://github.com/Rnrb39/pagina-web.git
 
 Abrir el archivo index.html en el navegador.
 
