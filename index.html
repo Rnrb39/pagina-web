@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Gadgets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Natalia y Sergio</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#carrito">Carrito (<span id="contador-carrito">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="productos" class="contenedor">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-lista" id="lista-productos">
+          
+            <!-- Productos se generarán aquí con JS -->
+        </div>
+    </section>
+
+    <section id="carrito" class="contenedor">
+        <h2>Carrito de Compras</h2>
+        <div id="contenido-carrito"></div>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
